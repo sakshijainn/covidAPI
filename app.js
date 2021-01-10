@@ -21,7 +21,7 @@ async function trackCases()
             console.log(searchCountry);
             console.log(res.CountryCode);
             console.log(res.NewConfirmed);
-            document.getElementById("correct").style.display = "block";
+            document.getElementById("incorrect").style.display="none";
             document.getElementById("country").innerHTML = res.Country;
             document.getElementById("active").innerHTML = res.NewConfirmed;
             document.getElementById("cases").innerHTML = res.TotalConfirmed;
@@ -34,7 +34,7 @@ async function trackCases()
         else 
         {
             document.getElementById("incorrect").innerHTML="Sorry. Enter correct name!"
-            document.getElementById("correct").style.display = "none";
+           
 
         }
        
