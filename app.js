@@ -30,6 +30,10 @@ async function trackCases()
             document.getElementById("tests").innerHTML = res.TotalRecovered;
 
         }
+        else 
+        {
+            alert('Enter correct country name');
+        }
        
     })
 
