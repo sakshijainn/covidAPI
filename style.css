@@ -1,0 +1,161 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
+
+html{
+    box-sizing: border-box;
+    margin:0;
+    padding:0;
+    background-color: #EFF6FF;
+    overflow-x: hidden;
+   
+}
+
+
+
+body
+{
+    
+   margin: 0;
+   padding: 0;
+   font-family: 'Montserrat', sans-serif;
+   box-sizing: border-box;
+   overflow-x: hidden;
+   background-color: black;
+   
+   
+}
+
+
+.navigation 
+{
+    background-color: #e63946;
+    color:white;
+    border-bottom-left-radius: 2rem;
+    
+   
+}
+.navigation h1
+{
+    line-height: 3;
+    text-align: start;
+    padding: 1.2rem;
+    margin: 1.2rem;
+    color: white;
+    
+}
+
+
+
+.image-container .image 
+{
+    max-width: 500px;
+    display: block;
+     margin: auto;
+     padding: 1rem;
+}
+
+
+.output button
+{
+    background-color:  #e63946;
+    color:black;
+    padding: 14px;
+    border:none;
+    border-radius: 15px;
+    text-align: center;
+    margin: 1rem;
+    font-size: 1.1rem;
+    cursor: pointer;
+    border:2px solid white;
+    
+}
+.output button:hover 
+{
+    border: none;
+
+}
+
+.output 
+{
+    
+    color: black;
+    text-align: center;
+}
+
+#textInput
+{
+    border: 5px solid white; 
+    -webkit-box-shadow: 
+      inset 0 0 8px  white,
+            0 0 16px white;
+    -moz-box-shadow: 
+      inset 0 0 8px  white,
+            0 0 16px white; 
+    box-shadow: 
+      inset 0 0 8px  white,
+            0 0 16px white; 
+    padding: 15px;
+    background: white;
+    margin: 0 0 10px 0;
+}
+
+.board {
+    column-count: 3;
+    column-gap: 1rem;
+}
+
+.card {
+    width: 79%;
+    background: #ccc;
+    padding: 10%;
+    margin-bottom: 20px;
+    border-radius: 6px;
+    color: #fff;
+}
+.card.a {
+    background: #41a7ff;
+}
+.card.cr {
+    background: #ff3434;
+}
+.card.r {
+    background: #32b336;
+}
+.card.ca {
+    background: #d83f3f;
+}
+.card.d {
+    background: #ff0053;
+}
+.card.t {
+    background: #ffa501;
+}
+.card h5 {
+    margin: 0;
+    font-size: 1rem;
+}
+.card span {
+    font-size: 1rem;
+    font-weight: 400;
+    letter-spacing: 4px;
+}
+.card i {
+    font-size: 3rem;
+}
+
+
+@media screen and (max-width:600px)
+{
+   
+    .image-container .image 
+        {
+             max-width: 300px;
+   
+        }
+
+        .board {
+            column-count: 2;
+          }
+          .card span {
+            font-size: 1.4rem;
+          }
+}

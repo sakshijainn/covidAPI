@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+    <title>COVID TRACKER</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+    <nav class="navigation">
+        <h1>COVID TRACKER</h1>
+    </nav>
+
+    <section class="one">
+        <div class="image-container">
+            <img  class="image" src="https://retailalliance.com/wp-content/uploads/2020/05/People-wore-medical-masks-to-prevent-corona.png" alt="">
+           
+        </div>
+       
+       
+        
+   
+</section>
+
+<section class="output">
+    <input type="text"  id="textInput"  placeholder="Enter Country Name"  required />
+    
+    
+    <button id="trackBtn">Track Cases</button>
+    
+
+    <h1>Do not worry! Just be Safe!</h1>
+    <div id="result"></div>
+    <h2 style="color: white;" >COVID -19 Cases in <span style="color: white;" id="country"></span>🤍 <img src="" id="flag"></h2>
+    <div class="board">
+        <div class="card a"><i class="fa fa-tachometer"></i><h5>New Confirmed</h5><span id="active"></span></div>
+        <div class="card ca"><i class="fa fa-th-list"></i><h5>Total Confirmed</h5><span id="cases"></span></div>
+        <div class="card cr"><i class="fa fa-times-circle"></i><h5>New Death</h5><span id="critical"></span></div>
+        <div class="card d"><i class="fa fa-times"></i><h5>Total Deaths</h5><span id="death"></span></div>
+        <div class="card r"><i class="fa fa-check-square-o"></i><h5>New Recovered</h5><span id="recovered"></span></div>
+        <div class="card t"><i class="fa fa-eye"></i><h5>Total Recovered</h5><span id="tests"></span></div>
+      </div>
+</section>
+
+
+
+<script src="app.js"></script>
+</body>
+</html>
